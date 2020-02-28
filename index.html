@@ -15,12 +15,13 @@ bodyClass: page-home
   <div class="call">
     <div class="call-box-top">
       <div class="call-phone"><strong>TEL </strong> {{ site.data.contact.phone }} </div>
-      <div class="call-phone"><strong>FAX </strong> {{ site.data.contact.fax }} </div>
+      <div class="call-fax"><strong>FAX </strong> {{ site.data.contact.fax }} </div>
       <div class="call-email"><strong>Email </strong>
         <a href="mailto:{{ site.data.contact.email }}">
           {{ site.data.contact.email }}
         </a>
       </div>
+      <div class="call-bank"><strong>BANK </strong> {{ site.data.contact.bank }} </div>
     </div>
     <div class="call-box-bottom">
       <a href="{{site.baseurl}}/contact" class="button">Contact</a>
