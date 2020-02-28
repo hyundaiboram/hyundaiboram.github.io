@@ -9,7 +9,7 @@ collections:
     permalink: /products/:path/
   testimonials:
     output: true
-    permalink: /testimonials/:path/
+    permalink: /about/:path/
 
 defaults:
   - scope:
