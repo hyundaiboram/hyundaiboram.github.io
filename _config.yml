@@ -6,7 +6,7 @@ title: 'Hyundai Boram'
 collections:
   services:
     output: true
-    permalink: /services/:path/
+    permalink: /products/:path/
   testimonials:
     output: true
     permalink: /testimonials/:path/
