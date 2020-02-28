@@ -6,16 +6,17 @@ bodyClass: page-home
 
 <div class="intro pb-4">
   <div class="container">
-    <h1>Serif - Jekyll Small Business Theme.</h1>
-    <p>Our business helps hundreds of customers with their accounting and taxation needs each year.</p>
+    <h1>(주)현대보람상사-현대·기아 자동차부품 대리점.</h1>
+    <p>현대모비스 공식대리점 현대보람상사의 온라인 채널입니다. 상시적으로 재고품목에 대한 할인정보를 제공하며, 부품·결제 관련 문의는 영업시간내 전화 또는 카카오톡으로 상담가능합니다. </p>
   </div>
 </div>
 
 <div class="container pt-2">
   <div class="call">
     <div class="call-box-top">
-      <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-      <div class="call-email"><strong>Email: </strong>
+      <div class="call-phone"><strong>TEL </strong> {{ site.data.contact.phone }} </div>
+      <div class="call-phone"><strong>FAX </strong> {{ site.data.contact.fax }} </div>
+      <div class="call-email"><strong>Email </strong>
         <a href="mailto:{{ site.data.contact.email }}">
           {{ site.data.contact.email }}
         </a>
@@ -27,10 +28,27 @@ bodyClass: page-home
   </div>
 </div>
 
+<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-4">Our Services</h2>
+    </div>
+    {% for feature in site.data.features %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
+        <h2 class="feature-title">{{ feature.title }}</h2>
+        <div class="feature-content">{{ feature.description }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="container pt-8 pt-md-10">
   <div class="row justify-content-start">
     <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">Our Services</h2>
+      <h2 class="title-3 text-dark mb-3">Discounted Products</h2>
     </div>
     {% for service in site.services %}
     <div class="col-12 col-md-4 mb-1">
@@ -47,22 +65,5 @@ bodyClass: page-home
     <div class="col-12 text-center">
       <a class="button button-primary mt-2" href="{{site.baseurl}}/services">View All Services</a>
     </div>
-  </div>
-</div>
-
-<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
-  <div class="row justify-content-center">
-    <div class="col-12">
-      <h2 class="title-3 text-dark mb-4">Our Features</h2>
-    </div>
-    {% for feature in site.data.features %}
-    <div class="col-12 col-md-6 col-lg-4 mb-2">
-      <div class="feature">
-        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
-        <h2 class="feature-title">{{ feature.title }}</h2>
-        <div class="feature-content">{{ feature.description }}</div>
-      </div>
-    </div>
-    {% endfor %}
   </div>
 </div>

@@ -17,11 +17,12 @@ bodyClass: page-contact
   <div class="row">
     <div class="col-12 col-md-8">
       <ul>
-        <li><strong>Phone: </strong>{{ site.data.contact.phone }}</li>
-        <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
+        <li><strong>TEL </strong>{{ site.data.contact.phone }}</li>
+        <li><strong>FAX </strong>{{ site.data.contact.fax }}</li>
+        <li><strong>Email </strong><a href="mailto:{{ site.data.contact.email }}">
             {{ site.data.contact.email }}</a></li>
         {% if site.data.contact.address %}
-        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
+        <li><strong>Address </strong>{{ site.data.contact.address }}</li>
         {% endif %}
       </ul>
       <h4 class="mt-4">Business Hours</h4>
@@ -30,37 +31,37 @@ bodyClass: page-contact
           <td class="day font-weight-bold">Monday</td>
           <td class="opens">8:30am</td>
           <td>-</td>
-          <td class="closes">5:00pm</td>
+          <td class="closes">6:30pm</td>
         </tr>
         <tr>
           <td class="day font-weight-bold">Tuesday</td>
           <td class="opens">8:30am</td>
           <td>-</td>
-          <td class="closes">5:00pm</td>
+          <td class="closes">6:30pm</td>
         </tr>
         <tr>
           <td class="day font-weight-bold">Wednesday</td>
           <td class="opens">8:30am</td>
           <td>-</td>
-          <td class="closes">5:00pm</td>
+          <td class="closes">6:30pm</td>
         </tr>
         <tr>
           <td class="day font-weight-bold">Thursday</td>
           <td class="opens">8:30am</td>
           <td>-</td>
-          <td class="closes">5:00pm</td>
+          <td class="closes">6:30pm</td>
         </tr>
         <tr>
           <td class="day font-weight-bold">Friday</td>
           <td class="opens">8:30am</td>
           <td>-</td>
-          <td class="closes">5:00pm</td>
+          <td class="closes">6:30pm</td>
         </tr>
         <tr>
           <td class="day font-weight-bold">Saturday</td>
-          <td class="opens">Closed</td>
+          <td class="opens">8:30am</td>
           <td></td>
-          <td class="closes"></td>
+          <td class="closes">4:00pm</td>
         </tr>
         <tr>
           <td class="day font-weight-bold">Sunday</td>
@@ -69,6 +70,17 @@ bodyClass: page-contact
           <td class="closes"></td>
         </tr>
       </table>
+      <div id="daumRoughmapContainer1582765871547" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+      <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+      <!-- 3. 실행 스크립트 -->
+      <script charset="UTF-8">
+      	new daum.roughmap.Lander({
+      		"timestamp" : "1582765871547",
+      		"key" : "x95e",
+      		"mapWidth" : "640",
+      		"mapHeight" : "360"
+      	}).render();
+      </script>
     </div>
   </div>
 </div>
