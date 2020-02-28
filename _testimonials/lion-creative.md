@@ -1,6 +1,6 @@
 ---
 title: 'Lion Creative'
-image: ''
+image: '/images/team/peter-van-eijk-711986-unsplash.jpg'
 businessurl: ''
 name: 'Jessica Lion'
 business: 'Lion Creative'
