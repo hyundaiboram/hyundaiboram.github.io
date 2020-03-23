@@ -1,26 +1,14 @@
 ---
-title: '할인품목(번호분류 etc.'
+title: '할인품목(번호 etc.)'
 image: '/services/noun_1013177.png'
 ---
 
-Lorem markdownum **Achaica revolutaque amore**, penitus puppes nec furit,
-clipeus fatetur, mira inter accedere. Dedit dum raptoresque Oete dolorem
-Cretaeas enim [ipse pectora excusat](#in-poscat) candentibus fertur? Furtiva
-Orontes Erysicthona dona, est per Achille viridi draconis cultis mota milia.
+- 할인품목은 3년 이상된 재고부품으로 10~50% 할인된 가격으로 제공합니다.
+- [부품상세검색(WPC)](https://www.mobis.co.kr/customer/part-info/mycar/index.do) 서비스 가입 후 차대번호를 등록하시면, 해당 차량의 부품조회가 가능합니다. 
+- 부품카테고리(엔진/미션/샤시 등)를 통해 필요한 부품을 탐색 및 선택 후, 오른쪽 상단의 주황색 아이콘 'Partlist' 버튼을 클릭하면, 상세부품번호를 확인할 수 있습니다.
+- 상세부품번호가 아래의 할인품목 목록에 있는지 확인해보세요(빠른탐색 Ctrl+F). 가격 및 구입 문의는 전화 또는 메신저로 연락주시기 바랍니다. 
 
-- Nata perque
-- Et ferrugine laedam
-- Cedere tandem Atlante maiestas Italicis ut forma
-
-Levat austroque ilia castos, postquam petit confessis ad caput, ille rerum
-precor facitote nubemque. Potuit Celadon Martem?
-
-1. Imagine Assaracus victori petet femina mea haustos
-2. Sicaniam quibus agro magni
-3. In utque Troica pedum caelestia hunc tempto
-4. Gregibus certare tamen turbatque qui
-
-## Patulis Veneris est expulit adversaque magnum mediaque
+---
 
 | 부품번호         | 부품명                       | 판매단가    |
 |--------------|---------------------------|---------|

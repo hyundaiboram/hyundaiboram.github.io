@@ -1,19 +1,14 @@
 ---
-title: '할인품목(번호분류 4-5)'
+title: '할인품목(번호 4-5)'
 image: '/services/default.png'
 ---
 
-Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
-vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
-nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
-cadet! [Ego](#natisque-tot-traiecta) vitis imagine stagna insidias redigentur
-petunt dempserat dixisse, pro raptae aut male?
+- 할인품목은 3년 이상된 재고부품으로 10~50% 할인된 가격으로 제공합니다.
+- [부품상세검색(WPC)](https://www.mobis.co.kr/customer/part-info/mycar/index.do) 서비스 가입 후 차대번호를 등록하시면, 해당 차량의 부품조회가 가능합니다. 
+- 부품카테고리(엔진/미션/샤시 등)를 통해 필요한 부품을 탐색 및 선택 후, 오른쪽 상단의 주황색 아이콘 'Partlist' 버튼을 클릭하면, 상세부품번호를 확인할 수 있습니다.
+- 상세부품번호가 아래의 할인품목 목록에 있는지 확인해보세요(빠른탐색 Ctrl+F). 가격 및 구입 문의는 전화 또는 메신저로 연락주시기 바랍니다. 
 
-- Dente reponere dixere referre excessitque seque
-- Tacui si cui inde haec ubi trepidas
-- Coniunx nulla aut
-
-## Geniti facinus praeruptam atris ab manus in
+---
 
 | 부품번호           | 부품명                      | 판매단가    |
 |----------------|--------------------------|---------|
